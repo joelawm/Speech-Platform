@@ -1,0 +1,33 @@
+﻿  Main.cpp
+\\homenas\network drive\speech platform\jarvis mark 1\speechplatform\speechplatform\main.cpp(36): warning C4930: 'std::thread PythonCommunication(void)': prototyped function not called (was a variable definition intended?)
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.13.26128\include\vector(1786): error C2036: 'Neuron *const ': unknown size
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.13.26128\include\vector(1785): note: while compiling class template member function 'unsigned __int64 std::vector<Neuron,std::allocator<_Ty>>::capacity(void) noexcept const'
+          with
+          [
+              _Ty=Neuron
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.13.26128\include\vector(2017): note: see reference to function template instantiation 'unsigned __int64 std::vector<Neuron,std::allocator<_Ty>>::capacity(void) noexcept const' being compiled
+          with
+          [
+              _Ty=Neuron
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.13.26128\include\vector(1950): note: see reference to class template instantiation 'std::vector<Neuron,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=Neuron
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.13.26128\include\vector(1949): note: while compiling class template member function 'void std::vector<Layer,std::allocator<_Ty>>::_Destroy(std::vector<Neuron,std::allocator<Neuron>> *,std::vector<Neuron,std::allocator<Neuron>> *)'
+          with
+          [
+              _Ty=Layer
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.13.26128\include\vector(2016): note: see reference to function template instantiation 'void std::vector<Layer,std::allocator<_Ty>>::_Destroy(std::vector<Neuron,std::allocator<Neuron>> *,std::vector<Neuron,std::allocator<Neuron>> *)' being compiled
+          with
+          [
+              _Ty=Layer
+          ]
+  \\homenas\network drive\speech platform\jarvis mark 1\speechplatform\speechplatform\neuralnet.h(22): note: see reference to class template instantiation 'std::vector<Layer,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=Layer
+          ]
